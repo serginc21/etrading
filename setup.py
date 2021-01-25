@@ -34,7 +34,7 @@ setup(
     description="Module for live trading via Metatrader (with MQL5)",
     entry_points={
         'console_scripts': [
-            'xtrader=xtrader.cli:main',
+            'etrading=etrading.cli:main',
         ],
     },
     install_requires=['Click>=7.0'],
@@ -42,13 +42,13 @@ setup(
     long_description=readme + '\n\n' + history,
     long_description_content_type="text/markdown",
     include_package_data=True,
-    keywords='xtrader',
-    name='xtrader',
-    packages=find_packages(include=['xtrader', 'xtrader.*','']),
+    keywords='etrading',
+    name='etrading',
+    packages=find_packages(include=['etrading', 'etrading.*','']),
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
-    url='https://github.com/serginc21/xtrader',
+    url='https://github.com/serginc21/etrading',
     version='0.0.0',
     zip_safe=False,
 )

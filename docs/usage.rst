@@ -2,6 +2,6 @@
 Usage
 =====
 
-To use xtrader in a project::
+To use etrading in a project::
 
-    import xtrader
+    import etrading

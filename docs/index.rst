@@ -1,4 +1,4 @@
-Welcome to xtrader's documentation!
+Welcome to etrading's documentation!
 ======================================
 
 .. toctree::
