@@ -8,13 +8,13 @@ Installation
 Stable release
 --------------
 
-To install alphabacktest, run this command in your terminal:
+To install xtrader, run this command in your terminal:
 
 .. code-block:: console
 
-    $ pip install alphabacktest
+    $ pip install xtrader
 
-This is the preferred method to install alphabacktest, as it will always install the most recent stable release.
+This is the preferred method to install xtrader, as it will always install the most recent stable release.
 
 If you don't have `pip`_ installed, this `Python installation guide`_ can guide
 you through the process.
@@ -26,19 +26,19 @@ you through the process.
 From sources
 ------------
 
-The sources for alphabacktest can be downloaded from the `Github repo`_.
+The sources for xtrader can be downloaded from the `Github repo`_.
 
 You can either clone the public repository:
 
 .. code-block:: console
 
-    $ git clone git://github.com/serginc21/alphabacktest
+    $ git clone git://github.com/serginc21/xtrader
 
 Or download the `tarball`_:
 
 .. code-block:: console
 
-    $ curl -OJL https://github.com/serginc21/alphabacktest/tarball/master
+    $ curl -OJL https://github.com/serginc21/xtrader/tarball/master
 
 Once you have a copy of the source, you can install it with:
 
@@ -47,5 +47,5 @@ Once you have a copy of the source, you can install it with:
     $ python setup.py install
 
 
-.. _Github repo: https://github.com/serginc21/alphabacktest
-.. _tarball: https://github.com/serginc21/alphabacktest/tarball/master
+.. _Github repo: https://github.com/serginc21/xtrader
+.. _tarball: https://github.com/serginc21/xtrader/tarball/master

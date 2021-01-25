@@ -2,6 +2,6 @@
 Usage
 =====
 
-To use alphabacktest in a project::
+To use xtrader in a project::
 
-    import alphabacktest
+    import xtrader

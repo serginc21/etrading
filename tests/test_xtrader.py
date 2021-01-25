@@ -1,17 +1,17 @@
 #!/usr/bin/env python
 
-"""Tests for `alphabacktest` package."""
+"""Tests for `xtrader` package."""
 
 
 import unittest
 from click.testing import CliRunner
 
-from alphabacktest import alphabacktest
-from alphabacktest import cli
+from xtrader import xtrader
+from xtrader import cli
 
 
-class TestAlphabacktest(unittest.TestCase):
-    """Tests for `alphabacktest` package."""
+class TestAXTrader(unittest.TestCase):
+    """Tests for `xtrader` package."""
 
     def setUp(self):
         """Set up test fixtures, if any."""
@@ -27,7 +27,7 @@ class TestAlphabacktest(unittest.TestCase):
         runner = CliRunner()
         result = runner.invoke(cli.main)
         assert result.exit_code == 0
-        assert 'alphabacktest.cli.main' in result.output
+        assert 'xtrader.cli.main' in result.output
         help_result = runner.invoke(cli.main, ['--help'])
         assert help_result.exit_code == 0
         assert '--help  Show this message and exit.' in help_result.output

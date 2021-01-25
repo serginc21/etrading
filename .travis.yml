@@ -25,5 +25,5 @@ deploy:
     secure: PLEASE_REPLACE_ME
   on:
     tags: true
-    repo: serginc21/alphabacktest
+    repo: serginc21/xtrader
     python: 3.8

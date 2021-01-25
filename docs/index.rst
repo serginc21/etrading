@@ -1,4 +1,4 @@
-Welcome to alphabacktest's documentation!
+Welcome to xtrader's documentation!
 ======================================
 
 .. toctree::

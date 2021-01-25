@@ -34,7 +34,7 @@ setup(
     description="Module for live trading via Metatrader (with MQL5)",
     entry_points={
         'console_scripts': [
-            'alphabacktest=alphabacktest.cli:main',
+            'xtrader=xtrader.cli:main',
         ],
     },
     install_requires=['Click>=7.0'],
@@ -42,13 +42,13 @@ setup(
     long_description=readme + '\n\n' + history,
     long_description_content_type="text/markdown",
     include_package_data=True,
-    keywords='alphabacktest',
-    name='alphabacktest',
+    keywords='xtrader',
+    name='xtrader',
     packages=find_packages(include=['xtrader', 'xtrader.*','']),
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/serginc21/xtrader',
-    version='0.1.7',
+    version='0.0.0',
     zip_safe=False,
 )
